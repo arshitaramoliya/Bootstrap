@@ -10330,3 +10330,30 @@
     }
   }
   /*# sourceMappingURL=bootstrap.css.map */
+/* Mobile navbar fix */
+@media (max-width: 768px) {
+    .navbar-nav {
+        padding: 10px 0;
+    }
+
+    .navbar-nav .nav-item {
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .navbar-collapse {
+        background-color: inherit;
+    }
+
+    .hero-section {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .card-deck {
+        flex-direction: column;
+    }
+
+    .card-deck .card {
+        margin-bottom: 16px;
+    }
+}
